@@ -7,11 +7,12 @@ type ProjectCardsProps = {
 
 export function ProjectCards({ projeto }: ProjectCardsProps) {
     return (
-        <div className="flex flex-col items-center justify-center gap-4">
-            <a href={projeto.liveUrl} target="_blank" rel="noopener noreferrer" className="bg-white dark:bg-zinc-800 rounded-lg shadow-md overflow-hidden">
-                <p className="text-gray-600 dark:text-gray-400">{projeto.title}</p>
-                <p>{projeto.description}</p>
-                <p>{projeto.techs.join(", ")}</p>
+        <div className="flex flex-col items-center justify-center gap-4 bg-white rounded-lg shadow-md overflow-hidden p-4 border-4 border-rosa">
+            <a href={projeto.githubUrl} target="_blank" rel="noopener noreferrer">
+                <Image src={projeto.imagemUrl} alt={projeto.title} width={500} height={200} />
+                <h1 className="text-lilas font-bold text-xl">{projeto.title}</h1>
+                <p className="text-lilas text-medium">{projeto.description}</p>
+                <p className="text-lilas text-sm">{projeto.techs.join(", ")}</p>
             </a>
         </div>
     );
