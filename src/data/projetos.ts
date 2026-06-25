@@ -18,11 +18,11 @@ export const projetos: Projeto[] = [
     },
     {
         id: "2",
-        title: "Loja Virtual",
-        description: "Loja de produtos eletrônicos",
+        title: "Loja de Eletrônicos",
+        description: "Loja de produtos eletrônicos contruida com Next.js, TailwindCSS, Python, FastAPI e MySQL",
         techs: ["Next.js", "TailwindCSS", "Python", "FastAPI", "MySQL" ],
         githubUrl: "https://github.com/CrislayneSoares/",
-        imagemUrl: "/projetos/login.png",
+        imagemUrl: "/projetos/loja-eletronicos.jpeg",
     },
     {
         id: "3",

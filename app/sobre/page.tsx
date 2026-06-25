@@ -35,20 +35,18 @@ export default function Sobre() {
                     <li className="flex items-center gap-2 bg-white rounded-md p-2 text-lilas w-34"> <Image src="/icons/git.svg" alt="Git" width={20} height={20} /> Git</li>
                     <li className="flex items-center gap-2 bg-white rounded-md p-2 text-lilas w-34"> <Image src="/icons/github.png" alt="GitHub" width={20} height={20} /> GitHub</li>
                     <li className="flex items-center gap-2 bg-white rounded-md p-2 text-lilas w-34"> <Image src="/icons/figma.svg" alt="Figma" width={20} height={20} /> Figma</li>
-                    <li className="flex items-center gap-2 bg-white rounded-md p-2 text-lilas w-34"> <Image src="/icons/tailwindcss.png" alt="TailwindCSS" width={20} height={20} /> TailwindCSS</li>
+                    <li className="flex items-center gap-2 bg-white rounded-md p-2 text-lilas w-34"> <Image src="/icons/tailwind.webp" alt="TailwindCSS" width={20} height={20} /> TailwindCSS</li>
                     <li className="flex items-center gap-2 bg-white rounded-md p-2 text-lilas w-34"> <Image src="/icons/js.png" alt="JavaScript" width={20} height={20} /> JavaScript</li>
                     <li className="flex items-center gap-2 bg-white rounded-md p-2 text-lilas w-34"> <Image src="/icons/react.png" alt="React" width={20} height={20} /> React</li>
-                    <li className="flex items-center gap-2 bg-white rounded-md p-2 text-lilas w-34"> <Image src="/icons/angular.png" alt="Angular" width={20} height={20} /> Angular</li>
                     <li className="flex items-center gap-2 bg-white rounded-md p-2 text-lilas w-34"> <Image src="/icons/python.png" alt="Python" width={20} height={20} /> Python</li>
                 </ul>
                 <h2 className="font-bold text-2xl text-lilas">Estudos</h2>
                 <div className="flex flex-wrap items-center justify-center gap-4 w-2/4">
                     <Card title="Técnico em Informática" periodo="SET/2021 - JUL/2023" imagem="/icons/ceep.png"></Card>
                     <Card title="Git e GitHub" periodo="AGO/2023" imagem="/icons/dio.png"></Card>
-                    <Card title="Programador de Sistemas" periodo="2022" imagem="https://github.com/CrislayneSoares.png"></Card>
-                    <Card title="ADS - Uniasselvi" periodo="JAN/2025 - JUL/2027" imagem="https://github.com/CrislayneSoares.png"></Card>
-                    <Card title="VNW - Vai Na Web" periodo="2026" imagem="https://github.com/CrislayneSoares.png"></Card>
-                    <Card title="VNW - Vai Na Web" periodo="2026" imagem="https://github.com/CrislayneSoares.png"></Card>
+                    <Card title="Programador de Sistemas" periodo="2022" imagem="/icons/senac_logo.png"></Card>
+                    <Card title="ADS - Uniasselvi" periodo="JAN/2025 - JUL/2027" imagem="/icons/uniasselvi_logo.png"></Card>
+                    <Card title="VNW - Vai Na Web" periodo="DEZ/2023" imagem="/icons/vnw.png"></Card>
                 </div>
             </main>
         </div>
