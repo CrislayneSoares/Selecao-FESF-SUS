@@ -21,7 +21,7 @@ export const projetos: Projeto[] = [
         title: "Loja de Eletrônicos",
         description: "Loja de produtos eletrônicos contruida com Next.js, TailwindCSS, Python, FastAPI e MySQL",
         techs: ["Next.js", "TailwindCSS", "Python", "FastAPI", "MySQL" ],
-        githubUrl: "https://github.com/CrislayneSoares/",
+        githubUrl: "https://github.com/CrislayneSoares/loja",
         imagemUrl: "/projetos/loja-eletronicos.jpeg",
     },
     {
@@ -36,7 +36,7 @@ export const projetos: Projeto[] = [
         id: "4",
         title: "La Pizza",
         description: "Site de uma pizzaria contruido com React, Styled Components",
-        techs: ["HTML", "CSS", "JavaScript"],
+        techs: ["React", "Styled Components", "JavaScript"],
         githubUrl: "https://la-pizza-react-gfuf.vercel.app/",
         imagemUrl: "/projetos/la-pizza.png",
     },
@@ -55,5 +55,13 @@ export const projetos: Projeto[] = [
         techs: ["HTML", "CSS", "JavaScript"],
         githubUrl: "https://frontend-mentor-1m9s.vercel.app/",
         imagemUrl: "/projetos/nft.png",
+    },
+    {
+        id: "7",
+        title: "Loja Saflcare",
+        description: "Loja de produtos naturais",
+        techs: [ "HTML", "CSS", "JavaScript" ],
+        githubUrl: "https://ecommerce-one-sandy.vercel.app/",
+        imagemUrl: "/projetos/loja-produtos.png",
     },
 ];
